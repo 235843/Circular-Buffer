@@ -1,0 +1,3 @@
+"C:\Celion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BUFOR.dir/objects.a
+C:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\BUFOR.dir/objects.a @CMakeFiles\BUFOR.dir\objects1.rsp
+C:\MinGW\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\BUFOR.dir/objects.a -Wl,--no-whole-archive  -o BUFOR.exe -Wl,--out-implib,libBUFOR.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BUFOR.dir\linklibs.rsp
